@@ -33,3 +33,72 @@ $(document).ready(function() {
     
 });
 ```
+OR
+```
+$(document).ready(function() {
+    
+  	$(document).keyEvents({
+      'backspace': function(){
+  		    console.log('You pressed backspace');
+  		},
+      'delete': function(){
+  		    console.log('You pressed delete');
+  		},
+      'insert': function(){
+  		    console.log('You pressed insert');
+  		},
+      'home': function(){
+  		    console.log('You pressed home');
+  		},
+      'end': function(){
+  		    console.log('You pressed end');
+  		},
+      'page-up': function(){
+  		    console.log('You pressed page-up');
+  		},
+      'page-down': function(){
+  		    console.log('You pressed page-down');
+  		},
+      'esc': function(){
+  		    console.log('You pressed esc');
+  		},
+      'tab': function(){
+  		    console.log('You pressed tab');
+  		},
+      'caps-lock': function(){
+  		    console.log('You pressed caps lock');
+  		},
+      'shift': function(){
+  		    console.log('You pressed shift');
+  		},
+      'ctrl': function(){
+  		    console.log('You pressed ctrl');
+  		},
+      'alt': function(){
+  		    console.log('You pressed alt');
+  		},
+      'alt-gr': function(){
+  		    console.log('You pressed alt gr');
+  		},
+      'enter': function(){
+  		    console.log('You pressed enter');
+  		},
+      'left': function(){
+  		    console.log('You pressed left');
+  		},
+      'right': function(){
+  		    console.log('You pressed right');
+  		},
+      'up': function(){
+  		    console.log('You pressed up');
+  		},
+      'down': function(){
+  		    console.log('You pressed down');
+  		},
+  		'callback': function(key){
+  		    console.log('You pressed key ' + key);
+  		}
+  	});
+    
+});
+```
