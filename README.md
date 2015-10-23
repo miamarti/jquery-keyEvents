@@ -15,7 +15,7 @@ $ bower install jquery-keyevents --save
 
 ## HTML Page include
 ```
-<script src="bower_components/jquery-keyEvents/dist/jquery-keyevents.min.js"></script>
+<script src="bower_components/jquery-keyevents/dist/jquery-keyevents.min.js"></script>
 ```
 
 ## Creating KeyEvents
