@@ -1,0 +1,27 @@
+{
+  "name": "jquery-keyevents",
+  "version": "1.0.0",
+  "main": "dist/jquery-keyevents.min.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "build",
+    "speed",
+    "test",
+    "*.md"
+  ],
+  "keywords": [
+    "keyDown",
+    "jquery",
+    "html5"
+  ],
+  "authors": [
+    { "name": "Miller Augusto S. Martins", "email": "miller@ciandt.com", "homepage": "http://br.linkedin.com/pub/miller-augusto/2a/38b/832/" },
+    { "name": "Juliano Lopes", "email": "julianol@ciandt.com" },
+    { "name": "Giseli Gouveia", "email": "giseli@ciandt.com" }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miamarti/jquery-keyEvents.git"
+  }
+}
