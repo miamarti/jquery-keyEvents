@@ -38,17 +38,17 @@
         var keyMap =  $.extend({}, hashMap, settings.keyMap);
 		this.keydown(function(event){
 		    var keyCode = event.which || event.keyCode;
-		    if(settings.hasOwnProperty(keyCode.toString())){
-                settings[keyCode.toString()](this);
-            } else {
-                for(var name in settings){
-                    if(keyMap.hasOwnProperty(name)){
-                        settings[keyMap[name]] = settings[name];
-                        delete settings[name];
-                    }
-                }
-            }
-            (settings.info || options.callback) ? settings.callback(keyCode) : '';
-	});
+			if(settings.hasOwnProperty(keyCode.toString())){
+				settings[keyCode.toString()](this);
+			} else {
+			    for(var name in settings){
+			        if(keyMap.hasOwnProperty(name)){
+			            settings[keyMap[name]] = settings[name];
+			            delete settings[name];
+			        }
+			    }
+			}
+	        (settings.info || options.callback) ? settings.callback(keyCode) : '';
+		});
     };
 }(jQuery));
