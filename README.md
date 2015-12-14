@@ -3,7 +3,7 @@ JQuery keyEvents
 [jquery-keyEvents] jQuery keyEvents
 
 <p>
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/miamarti/jquery-keyEvents?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+  <a href="https://gitter.im/miamarti/jquery-keyEvents?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge" target="_blank"><img src="https://badges.gitter.im/Join%20Chat.svg"></a>
   <img src="https://img.shields.io/badge/jquery--keyevents-release-green.svg">
   <img src="https://img.shields.io/badge/version-1.0.0-blue.svg">
   <img src="https://img.shields.io/bower/v/bootstrap.svg">
